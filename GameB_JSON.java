@@ -1,3 +1,13 @@
+/** Project: Lab4
+ * Purpose Details: To receive JSON
+ * Course: IST 242
+ * Author: Kadin
+ * Date Developed: 6/8
+ * Last Date Changed: 6/9
+ * Rev:
+
+ */
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;

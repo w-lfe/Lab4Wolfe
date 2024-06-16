@@ -1,3 +1,13 @@
+/** Project: Lab4
+ * Purpose Details: Game database for other classes to extract information from
+ * Course: IST 242
+ * Author: Kadin
+ * Date Developed: Lab1?
+ * Last Date Changed: 6/9
+ * Rev: bare bones code to eliminate risk for error
+
+ */
+
 public class Game {
     private String name;
     private int score;

@@ -1,3 +1,18 @@
+/** Project: Lab 4
+ * Purpose Details: Create the code to encrypt packages
+ * Course: IST 242
+ * Author: Kadin
+ * Date Developed: 6/12
+ * Last Date Changed:
+ * Rev:
+
+ */
+
+
+
+
+
+
 public class CaesarCipher {
     public static String encrypt(String text, int shift) {
         StringBuilder result = new StringBuilder();

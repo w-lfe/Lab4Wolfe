@@ -1,3 +1,13 @@
+/** Project: Lab4
+ * Purpose Details: To send RabbitMQ
+ * Course: IST 242
+ * Author: Kadin
+ * Date Developed: 6/7
+ * Last Date Changed: 6/9
+ * Rev:
+
+ */
+
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;

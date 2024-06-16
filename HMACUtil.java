@@ -1,3 +1,14 @@
+/** Project: Lab 4
+ * Purpose Details: key creation via webservice/json
+ * Course: IST 242
+ * Author: Kadin
+ * Date Developed: 6/12
+ * Last Date Changed:
+ * Rev:
+
+ */
+
+
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
