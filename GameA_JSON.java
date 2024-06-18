@@ -10,6 +10,7 @@
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -39,7 +40,7 @@ public class GameA_JSON {
 
             conn.disconnect();
             System.out.println("Game object sent via Web Service: " + json);
-            System.out.println("HMAC: " + hmac);
+            System.out.println("Calculated HMAC: " + hmac);
         } catch (Exception e) {
             e.printStackTrace();
         }
